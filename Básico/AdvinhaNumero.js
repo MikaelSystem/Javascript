@@ -10,6 +10,12 @@ while (menu){
 
     if (numero === sorteio) {
         console.log("Parabéns você acertou! ")
+        
+        do {
+            console.log(historico)
+        }
+        while (k<5)
+        
         menu = false
     }
     else {
